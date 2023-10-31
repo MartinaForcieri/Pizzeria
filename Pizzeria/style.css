@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Knewave&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  background-color: rgba(40, 40, 40, 0.5);
+  border-radius: 100px;
+}
+
+body {
+  background-image: url(image/background-pizza.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  height: 200px;
+  background-image: url(image/logo-pizzeria.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 40px;
+}
+
+nav {
+  background-color: rgba(180, 0, 0, 0.6);
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.menu {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: "Cabin", sans-serif;
+  padding: 0 10px;
+}
+
+.menu:hover {
+  color: black;
+  background-color: whitesmoke;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+main {
+  height: 500px;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  font-family: "Knewave", cursive;
+  font-size: 80px;
+  color: whitesmoke;
+}
+
+p {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-bottom: 40px;
+}
+
+#prenota {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  border: 2px solid white;
+  background-color: yellow;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#prenota:hover {
+  background-color: red;
+  color: yellow;
+  border: 2px solid black;
+}
+
+.contact {
+  padding-top: 40px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 420px) {
+  .map {
+    margin-top: 320px;
+  }
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+}
+
+#footer {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.linkF {
+  text-decoration: none;
+  color: yellow;
+}
+
+.linkF:hover {
+  color: red;
+}
